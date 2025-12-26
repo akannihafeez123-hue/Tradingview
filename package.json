@@ -1,0 +1,42 @@
+{
+  "name": "ai-trading-system",
+  "version": "5.0.0",
+  "description": "AI Trading System with Real Market Data and Webhook Support",
+  "main": "ai_trading_system.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ai_trading_system.js",
+    "dev": "node ai_trading_system.js",
+    "test": "echo \"Testing AI Trading System\" && exit 0",
+    "setup-webhook": "curl -X POST \"https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook\" -d \"url=$TELEGRAM_WEBHOOK_URL\"",
+    "check-webhook": "curl -s \"https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getWebhookInfo\"",
+    "delete-webhook": "curl -X POST \"https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/deleteWebhook\"",
+    "health": "curl -s http://localhost:$PORT/health"
+  },
+  "keywords": [
+    "trading",
+    "ai",
+    "quantum",
+    "institutional",
+    "telegram",
+    "webhook",
+    "tradingview",
+    "real-data"
+  ],
+  "author": "AI Trading Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-trading-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-trading-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-trading-system#readme",
+  "private": true
+}

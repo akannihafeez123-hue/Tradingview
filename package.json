@@ -1,0 +1,13 @@
+{
+  "name": "omni-institutional-ai",
+  "version": "3.0.0",
+  "description": "Professional AI Trading System",
+  "main": "omni_ai.js",
+  "type": "module",
+  "scripts": {
+    "start": "node omni_ai.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

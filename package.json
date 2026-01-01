@@ -1,0 +1,27 @@
+{
+  "name": "omni-institutional-ai",
+  "version": "2.0.0",
+  "description": "Institutional AI Trading System with Multi-Timeframe Analysis",
+  "main": "omni_ai.js",
+  "type": "module",
+  "scripts": {
+    "start": "node omni_ai.js",
+    "dev": "node --watch omni_ai.js"
+  },
+  "dependencies": {
+    "https": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "trading",
+    "ai",
+    "crypto",
+    "forex",
+    "institutional",
+    "algorithmic"
+  ],
+  "author": "OMNI AI Team",
+  "license": "MIT"
+}
